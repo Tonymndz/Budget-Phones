@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch } from "react-redux";
+import axios from 'axios'
 import './App.css';
 import Title from './Title'
 import Card from './Card';
@@ -6,10 +8,27 @@ import Ending from './Ending';
 import NavBar from './NavBar';
 import CommentSection from './CommentSection'
 import { phoneData } from './data';
+import { getFetchedComments, GetTokenAsString, checkLoggedIn, getUserDataResponse, IResponseFromJWT } from './HelperFunctions';
 
 let App = (): JSX.Element => {
+  const dispatch = useDispatch();
+  const token = GetTokenAsString();
+
+  useEffect(() => {
+    (async () => {
+      const commentsData = await getFetchedComments()
+      dispatch({ type: "ADD_COMMENT_LIST", payload: commentsData })
+      const isJWTInStorage: Boolean = await checkLoggedIn(token);
+      if (isJWTInStorage) {
+        let UserData: IResponseFromJWT = await getUserDataResponse(token)
+        dispatch({ type: "ADD_USER_DATA", payload: UserData })
+      }
+
+    })()
+  }, [])
+
   let DisplayPhoneCards: JSX.Element[] = phoneData.map((phone, index) => <Card key={index} {...phone} />)
-  
+
   return <div className="App">
     <NavBar />
     <div className="WidthAlign">
@@ -24,6 +43,21 @@ let App = (): JSX.Element => {
 export default App;
 
 /*
+
+Adding login!
+  - Create the button sign in without styles and the pop up with styles and create login styles
+
+Login Process!
+  1.) useEffect checks storage for token
+  2.) If it has a token send axios post(token), for username
+    1.) Add another reducer on redux to hold user information
+    2.) Information is added to redux reducer
+  4.) NavBar uses useSelector to know what to put
+    1.) Add register and login and logout
+  6.) Look for a register and login to copy
+  7.) Add the css and styles for them
+  8.) onButton click it does it and error is displayed on ottom
+
 Clone: https://www.cnet.com/news/best-cheap-earbuds-and-headphones-of-2020/ (Without the Table)
   - Use a different better looking table from a different site
   - Find my own phones under $50
@@ -53,10 +87,6 @@ SEO
   > I have no backlinks so oof
   > Refferral
   > 
-
-  Rehheat cappachio
-  Craft two cluster jewels 12 mnins or 2:52
-  work on website
 
 ----------------------------------------------------------------------------------------------
 
@@ -317,17 +347,5 @@ Samsung Galaxy A20 - $150
 Apple iPhone SE - $400
 Motorola Moto e - $130
 Nokia C5 Endi - $170
-*/
-
-/*
-
-3:30 - HW 1
-5:00 - HW 2
-6:30 - HW 3
-8:00 - HW 4
-
-
-Under Under $60, $70-75, $100
-
 
 */

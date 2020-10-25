@@ -70,7 +70,6 @@
 
 .SendComment input:hover{
   border-bottom: 1px solid rgb(255, 255, 255);
-  transition: 0.5s;
 }
 
 .Comment {
