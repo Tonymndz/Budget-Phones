@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Budget-Phones/static/css/main.02fc762c.chunk.css",
-    "main.js": "/Budget-Phones/static/js/main.9df8ef07.chunk.js",
-    "main.js.map": "/Budget-Phones/static/js/main.9df8ef07.chunk.js.map",
-    "runtime-main.js": "/Budget-Phones/static/js/runtime-main.32480993.js",
-    "runtime-main.js.map": "/Budget-Phones/static/js/runtime-main.32480993.js.map",
-    "static/js/2.a27537d4.chunk.js": "/Budget-Phones/static/js/2.a27537d4.chunk.js",
-    "static/js/2.a27537d4.chunk.js.map": "/Budget-Phones/static/js/2.a27537d4.chunk.js.map",
-    "index.html": "/Budget-Phones/index.html",
-    "precache-manifest.b00529498b828b9bc6275b58642edc10.js": "/Budget-Phones/precache-manifest.b00529498b828b9bc6275b58642edc10.js",
-    "service-worker.js": "/Budget-Phones/service-worker.js",
-    "static/css/main.02fc762c.chunk.css.map": "/Budget-Phones/static/css/main.02fc762c.chunk.css.map",
-    "static/js/2.a27537d4.chunk.js.LICENSE.txt": "/Budget-Phones/static/js/2.a27537d4.chunk.js.LICENSE.txt"
+    "main.css": "/budget-phones/static/css/main.02fc762c.chunk.css",
+    "main.js": "/budget-phones/static/js/main.2d24ae90.chunk.js",
+    "main.js.map": "/budget-phones/static/js/main.2d24ae90.chunk.js.map",
+    "runtime-main.js": "/budget-phones/static/js/runtime-main.364baf48.js",
+    "runtime-main.js.map": "/budget-phones/static/js/runtime-main.364baf48.js.map",
+    "static/js/2.a27537d4.chunk.js": "/budget-phones/static/js/2.a27537d4.chunk.js",
+    "static/js/2.a27537d4.chunk.js.map": "/budget-phones/static/js/2.a27537d4.chunk.js.map",
+    "index.html": "/budget-phones/index.html",
+    "precache-manifest.fe76b9fd6f5134e5f609858139c2c674.js": "/budget-phones/precache-manifest.fe76b9fd6f5134e5f609858139c2c674.js",
+    "service-worker.js": "/budget-phones/service-worker.js",
+    "static/css/main.02fc762c.chunk.css.map": "/budget-phones/static/css/main.02fc762c.chunk.css.map",
+    "static/js/2.a27537d4.chunk.js.LICENSE.txt": "/budget-phones/static/js/2.a27537d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.32480993.js",
+    "static/js/runtime-main.364baf48.js",
     "static/js/2.a27537d4.chunk.js",
     "static/css/main.02fc762c.chunk.css",
-    "static/js/main.9df8ef07.chunk.js"
+    "static/js/main.2d24ae90.chunk.js"
   ]
 }
