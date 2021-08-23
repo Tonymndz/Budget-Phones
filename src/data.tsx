@@ -86,7 +86,7 @@ export let phoneData: IPhoneData[] = [
     priceHeading: true,
     price: "Under $100",
     phone: "Google Pixel XL",
-    imageLink: "https://www.reliantcellular.com/wp-content/uploads/imported/6/Google-Pixel-XL-32GB-Quite-Black-Unlocked-Smartphone-New-Open-Box-133244102536.JPG",
+    imageLink: "https://www.mobilepriceinbangladesh.com/wp-content/uploads/2017/02/google-pixel-xl.jpg",
     screenInches: "5.5\"",
     screenPixels: "1440x2560", 
     RAM: "4GB",

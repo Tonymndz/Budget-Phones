@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from "react-redux";
-import axios from 'axios'
 import './App.css';
 import Title from './Title'
 import Card from './Card';
@@ -23,7 +22,6 @@ let App = (): JSX.Element => {
         let UserData: IResponseFromJWT = await getUserDataResponse(token)
         dispatch({ type: "ADD_USER_DATA", payload: UserData })
       }
-
     })()
   }, [])
 
