@@ -1,7 +1,7 @@
 
 
 # Best Budget Phones Personal Sites
-### Live:
+### Live Demo:
   - <a href="https://tonymndz.github.io/budget-phones/">Best Budget Phones under $60, $100, $120</a>
   <img align="" src="https://i.ibb.co/60bq05Y/firefox-rn-Fia6ycm2.png">
   
