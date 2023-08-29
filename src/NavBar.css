@@ -54,6 +54,7 @@
   border-radius: 4px;
   color: rgb(255, 255, 255);
   font-weight: 600;
+  cursor: pointer;
 }
 
 #SignIn:hover {
@@ -73,6 +74,7 @@
   border-radius: 4px;
   color: rgb(255, 255, 255);
   font-weight: 600;
+  cursor: pointer;
 }
 
 #LogOut:hover span {
@@ -110,6 +112,7 @@
   border-radius: 4px;
   color: rgb(255, 255, 255);
   font-weight: 600;
+  cursor: pointer;
 }
 
 #SignIn:hover {
@@ -130,6 +133,7 @@
   border-radius: 4px;
   color: rgb(255, 255, 255);
   font-weight: 600;
+  cursor: pointer;
 }
 
 #LogOut:hover span {

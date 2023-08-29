@@ -12,7 +12,7 @@ let Ending = (): JSX.Element => {
         feel, style or touch judged what I picked. <br/><br/>Whenever you find
         yourself in a case of needing to compare phones with each other. There
         is this <b>awesome site</b> that I used which is called{" "}
-        <a href="phonemore.com">phonemore.com</a> and it's one of the{" "}
+        <a href="https://www.phonemore.com/">phonemore.com</a> and it's one of the{" "}
         <b>best sites</b> I've used to compare all these phones here against
         each other and other phones.
       </p>

@@ -52,7 +52,7 @@ let SendComment = () => {
   let sendCommentInfo = async (): Promise<void> => {
     const username = (userData) ? userData.user.username : "Guest";
     const commentToSend = { "username": username, "comment": text }
-    await axios.post('https://peaceful-ocean-59292.herokuapp.com/Under120/add', commentToSend)
+    await axios.post('https://pink-strange-badger.cyclic.cloud/Under120/add', commentToSend)
     window.location.href = "/"
   }
 

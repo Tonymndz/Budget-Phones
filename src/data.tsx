@@ -1,3 +1,11 @@
+import googlePixelXL from './images/google-pixel-xl.jpg'
+import googlePixel2 from './images/google-pixel-2.jpg'
+import LG_G5 from './images/LG-G5.jpg'
+import LG_G6 from './images/LG-G6.png'
+import motorola_moto_z_force from './images/motorola-moto-z-force-1.jpg'
+import Samsung_Galaxy_Note_4 from './images/Samsung-Galaxy-Note-4.jpg'
+import Samsung_Galaxy_Note_5 from './images/samsung-galaxy-note5-5.jpg'
+
 export interface IPhoneData {
   priceHeading: boolean,
   price: string;
@@ -26,7 +34,7 @@ export let phoneData: IPhoneData[] = [
     priceHeading: true,
     price: "Under $60",
     phone: "Motorola Moto Z Droid",
-    imageLink: "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-z-force-1.jpg",
+    imageLink: motorola_moto_z_force,
     screenInches: "5.5\"",
     screenPixels: "1440x2560", 
     RAM: "4GB",
@@ -45,7 +53,7 @@ export let phoneData: IPhoneData[] = [
     priceHeading: false,
     price: "Under $60",
     phone: "LG G5",
-    imageLink: "https://images-na.ssl-images-amazon.com/images/I/51TDgjRxE8L.jpg",
+    imageLink: LG_G5,
     screenInches: "5.3\"",
     screenPixels: "1440x2560", 
     RAM: "4GB",
@@ -64,7 +72,7 @@ export let phoneData: IPhoneData[] = [
     priceHeading: true,
     price: "Under $80",
     phone: "LG G6",
-    imageLink: "https://i.ebayimg.com/images/g/zrEAAOSwY0teTeS5/s-l640.png",
+    imageLink: LG_G6,
     screenInches: "5.7\"",
     screenPixels: "1440x2880", 
     RAM: "4GB",
@@ -86,7 +94,7 @@ export let phoneData: IPhoneData[] = [
     priceHeading: true,
     price: "Under $100",
     phone: "Google Pixel XL",
-    imageLink: "https://www.mobilepriceinbangladesh.com/wp-content/uploads/2017/02/google-pixel-xl.jpg",
+    imageLink: googlePixelXL,
     screenInches: "5.5\"",
     screenPixels: "1440x2560", 
     RAM: "4GB",
@@ -105,7 +113,7 @@ export let phoneData: IPhoneData[] = [
     priceHeading: false,
     price: "Under $100",
     phone: "Samsung Galaxy Note 4",
-    imageLink: "https://images-na.ssl-images-amazon.com/images/I/71kRAnLYANL._AC_SX679_.jpg",
+    imageLink: Samsung_Galaxy_Note_4,
     screenInches: "5.7\"",
     screenPixels: "1440x2560", 
     RAM: "3GB",
@@ -124,7 +132,7 @@ export let phoneData: IPhoneData[] = [
     priceHeading: true,
     price: "Under $120",
     phone: "Google Pixel 2",
-    imageLink: "https://images-na.ssl-images-amazon.com/images/I/61TchY6s7ZL._AC_SL1200_.jpg",
+    imageLink: googlePixel2,
     screenInches: "5\"",
     screenPixels: "1080x1920", 
     RAM: "4GB",
@@ -143,7 +151,7 @@ export let phoneData: IPhoneData[] = [
     priceHeading: false,
     price: "Under $120",
     phone: "Samsung Galaxy Note 5",
-    imageLink: "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-note5-5.jpg",
+    imageLink: Samsung_Galaxy_Note_5,
     screenInches: "5.7\"",
     screenPixels: "1440x2560", 
     RAM: "4GB",

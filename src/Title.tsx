@@ -1,4 +1,5 @@
 import React from "react";
+import groupOfPhones from './images/displayed-phones.jpg'
 import "./Title.css";
 
 let Title = (): JSX.Element => {
@@ -8,11 +9,11 @@ let Title = (): JSX.Element => {
         Best Budget Phones under $60, $80, $100, and $120
       </h1>
       <div id="FlexAligning">
-        <span id="Updated">Updated September 20, 2020 at 11:31 AM</span>
+        <span id="Updated">Updated August 20, 2023 at 11:31 AM</span>
         <span id="Updated">By Tony Mendez</span>
       </div>
       <img id="PhoneIMG"
-        src="https://cdn.mos.cms.futurecdn.net/27d726e74f305512824d5e6c839662d9.jpg"
+        src={groupOfPhones}
         alt="Group Of Phones"
       />
       <p>
@@ -24,7 +25,7 @@ let Title = (): JSX.Element => {
         less we <b>DEAL WITH WHAT WE GOT</b>. 
         <br/><br/>
         So I've compared up to over{" "}
-        <b>80 phones</b> and created a list to show you the best phones in
+        <b>90 phones</b> and created a list to show you the best phones in
         terms of specs sorted by specific price categories of under $60, $80, $100 and $120. 
         Since we are going extreme budget mode, the best deals we could get are at{" "}
         <b>EBAY</b>!{" "}
