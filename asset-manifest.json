@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/budget-phones/static/css/main.673e3995.chunk.css",
-    "main.js": "/budget-phones/static/js/main.91cbf4f5.chunk.js",
-    "main.js.map": "/budget-phones/static/js/main.91cbf4f5.chunk.js.map",
-    "runtime-main.js": "/budget-phones/static/js/runtime-main.364baf48.js",
-    "runtime-main.js.map": "/budget-phones/static/js/runtime-main.364baf48.js.map",
-    "static/js/2.7b540319.chunk.js": "/budget-phones/static/js/2.7b540319.chunk.js",
-    "static/js/2.7b540319.chunk.js.map": "/budget-phones/static/js/2.7b540319.chunk.js.map",
+    "main.js": "/budget-phones/static/js/main.f760b04f.chunk.js",
+    "main.js.map": "/budget-phones/static/js/main.f760b04f.chunk.js.map",
+    "runtime-main.js": "/budget-phones/static/js/runtime-main.c058d215.js",
+    "runtime-main.js.map": "/budget-phones/static/js/runtime-main.c058d215.js.map",
+    "static/js/2.65fea49f.chunk.js": "/budget-phones/static/js/2.65fea49f.chunk.js",
+    "static/js/2.65fea49f.chunk.js.map": "/budget-phones/static/js/2.65fea49f.chunk.js.map",
     "index.html": "/budget-phones/index.html",
-    "precache-manifest.95e9311173d9498166027a07bc1826fb.js": "/budget-phones/precache-manifest.95e9311173d9498166027a07bc1826fb.js",
+    "precache-manifest.ae567a3fa3c56b8716d6d6df0fe17e03.js": "/budget-phones/precache-manifest.ae567a3fa3c56b8716d6d6df0fe17e03.js",
     "service-worker.js": "/budget-phones/service-worker.js",
     "static/css/main.673e3995.chunk.css.map": "/budget-phones/static/css/main.673e3995.chunk.css.map",
-    "static/js/2.7b540319.chunk.js.LICENSE.txt": "/budget-phones/static/js/2.7b540319.chunk.js.LICENSE.txt",
     "static/media/LG-G5.jpg": "/budget-phones/static/media/LG-G5.97acc71e.jpg",
     "static/media/LG-G6.png": "/budget-phones/static/media/LG-G6.0e03fb5f.png",
     "static/media/Samsung-Galaxy-Note-4.jpg": "/budget-phones/static/media/Samsung-Galaxy-Note-4.c237c348.jpg",
@@ -22,9 +21,9 @@
     "static/media/samsung-galaxy-note5-5.jpg": "/budget-phones/static/media/samsung-galaxy-note5-5.40a921fb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.364baf48.js",
-    "static/js/2.7b540319.chunk.js",
+    "static/js/runtime-main.c058d215.js",
+    "static/js/2.65fea49f.chunk.js",
     "static/css/main.673e3995.chunk.css",
-    "static/js/main.91cbf4f5.chunk.js"
+    "static/js/main.f760b04f.chunk.js"
   ]
 }

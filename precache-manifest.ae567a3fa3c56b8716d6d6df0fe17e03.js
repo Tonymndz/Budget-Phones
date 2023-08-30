@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f020f7d3921c4b1ea2e19605ec81b1a",
+    "revision": "78f05e52676e94fe0dd4822ef965685c",
     "url": "/budget-phones/index.html"
   },
   {
-    "revision": "df8e4793e3cc74e96238",
+    "revision": "9d8c8e1f682f5113533b",
     "url": "/budget-phones/static/css/main.673e3995.chunk.css"
   },
   {
-    "revision": "6efda2a88b7e341ed4a8",
-    "url": "/budget-phones/static/js/2.7b540319.chunk.js"
+    "revision": "a5fc9d5c6141dc935d59",
+    "url": "/budget-phones/static/js/2.65fea49f.chunk.js"
   },
   {
-    "revision": "0e77ccc9007464ffd437757d6ef9c957",
-    "url": "/budget-phones/static/js/2.7b540319.chunk.js.LICENSE.txt"
+    "revision": "9d8c8e1f682f5113533b",
+    "url": "/budget-phones/static/js/main.f760b04f.chunk.js"
   },
   {
-    "revision": "df8e4793e3cc74e96238",
-    "url": "/budget-phones/static/js/main.91cbf4f5.chunk.js"
-  },
-  {
-    "revision": "c89e30835475b655fcda",
-    "url": "/budget-phones/static/js/runtime-main.364baf48.js"
+    "revision": "4913db1302731729b28f",
+    "url": "/budget-phones/static/js/runtime-main.c058d215.js"
   },
   {
     "revision": "97acc71ebc7730bd572095235c0f3292",
