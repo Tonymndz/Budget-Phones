@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/budget-phones/static/css/main.673e3995.chunk.css",
-    "main.js": "/budget-phones/static/js/main.2cbfdd80.chunk.js",
-    "main.js.map": "/budget-phones/static/js/main.2cbfdd80.chunk.js.map",
+    "main.js": "/budget-phones/static/js/main.b8d20514.chunk.js",
+    "main.js.map": "/budget-phones/static/js/main.b8d20514.chunk.js.map",
     "runtime-main.js": "/budget-phones/static/js/runtime-main.c058d215.js",
     "runtime-main.js.map": "/budget-phones/static/js/runtime-main.c058d215.js.map",
-    "static/js/2.65fea49f.chunk.js": "/budget-phones/static/js/2.65fea49f.chunk.js",
-    "static/js/2.65fea49f.chunk.js.map": "/budget-phones/static/js/2.65fea49f.chunk.js.map",
+    "static/js/2.3200cdb8.chunk.js": "/budget-phones/static/js/2.3200cdb8.chunk.js",
+    "static/js/2.3200cdb8.chunk.js.map": "/budget-phones/static/js/2.3200cdb8.chunk.js.map",
     "index.html": "/budget-phones/index.html",
-    "precache-manifest.3ae5451853e5995c833075f682897a84.js": "/budget-phones/precache-manifest.3ae5451853e5995c833075f682897a84.js",
+    "precache-manifest.00a01030b27c3325a0438da06ce426e3.js": "/budget-phones/precache-manifest.00a01030b27c3325a0438da06ce426e3.js",
     "service-worker.js": "/budget-phones/service-worker.js",
     "static/css/main.673e3995.chunk.css.map": "/budget-phones/static/css/main.673e3995.chunk.css.map",
     "static/media/LG-G5.jpg": "/budget-phones/static/media/LG-G5.97acc71e.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c058d215.js",
-    "static/js/2.65fea49f.chunk.js",
+    "static/js/2.3200cdb8.chunk.js",
     "static/css/main.673e3995.chunk.css",
-    "static/js/main.2cbfdd80.chunk.js"
+    "static/js/main.b8d20514.chunk.js"
   ]
 }
