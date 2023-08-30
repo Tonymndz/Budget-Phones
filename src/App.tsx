@@ -8,6 +8,8 @@ import NavBar from './NavBar';
 import CommentSection from './CommentSection'
 import { phoneData } from './data';
 import { getFetchedComments, GetTokenAsString, checkLoggedIn, getUserDataResponse, IResponseFromJWT } from './HelperFunctions';
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
 
 let App = (): JSX.Element => {
   const dispatch = useDispatch();
