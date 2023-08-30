@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c850ca26921a553c6d683a6121a18502",
+    "revision": "65b77b2ebeeb8357034d1f1031d86ae4",
     "url": "/budget-phones/index.html"
   },
   {
