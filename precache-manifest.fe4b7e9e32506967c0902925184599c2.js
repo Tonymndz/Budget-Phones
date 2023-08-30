@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78f05e52676e94fe0dd4822ef965685c",
+    "revision": "c850ca26921a553c6d683a6121a18502",
     "url": "/budget-phones/index.html"
   },
   {
-    "revision": "9d8c8e1f682f5113533b",
+    "revision": "74cbe66084e7bda5aa2b",
     "url": "/budget-phones/static/css/main.673e3995.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/budget-phones/static/js/2.65fea49f.chunk.js"
   },
   {
-    "revision": "9d8c8e1f682f5113533b",
-    "url": "/budget-phones/static/js/main.f760b04f.chunk.js"
+    "revision": "74cbe66084e7bda5aa2b",
+    "url": "/budget-phones/static/js/main.2cbfdd80.chunk.js"
   },
   {
     "revision": "4913db1302731729b28f",
