@@ -25,7 +25,7 @@ let Title = (): JSX.Element => {
         less we <b>DEAL WITH WHAT WE GOT</b>. 
         <br/><br/>
         So I've compared up to over{" "}
-        <b>90 phones</b> and created a list to show you the best phones in
+        <b>95 phones</b> and created a list to show you the best phones in
         terms of specs sorted by specific price categories of under $60, $80, $100 and $120. 
         Since we are going extreme budget mode, the best deals we could get are at{" "}
         <b>EBAY</b>!{" "}
